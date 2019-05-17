@@ -59,6 +59,8 @@ public class Calculator extends Application {
         multiply = new Button("×");
         multiply.setId("multiply");
         clear = new Button("C");
+        clear.setTranslateX(10);
+        clear.setTranslateY(85);
         clear.setId("clear");
         back = new Button("←");
         back.setId("back");
@@ -88,10 +90,11 @@ public class Calculator extends Application {
         textField.setTranslateY(25);
         textField.setId("textField");
 
+
         Pane layout = new Pane();
         //adding controllers to the layout
         layout.getChildren().addAll(
-                oldValueLabel,operandLabel,textField,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,comma, plus, minus , equal,divide, multiply,clear, back,brackets,sign
+                oldValueLabel,operandLabel,textField,/*b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,comma, plus, minus , equal,divide, multiply,*/clear/*, back,brackets,sign*/
         );
         scene = new Scene(layout,290,415);
         scene.getStylesheets().add("StylingSheet.css");

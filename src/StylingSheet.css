@@ -2,6 +2,8 @@
     -fx-background-color: #3D4D5F;
 }
 #b0, #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+    -fx-pref-height: 45;
+    -fx-pref-width: 60;
     -fx-text-fill: white;
     -fx-background-color: #525E6C;
     -fx-font-family: Calibri;
@@ -10,7 +12,7 @@
 
 #comma, #plus, #minus, #equal, #divide, #multiply, #clear, #back, #brackets, #sign {
     -fx-text-fill: white;
-    -fx-background-color: #425466;
+    -fx-background-color: #647E99;
     -fx-font-family: Calibri;
     -fx-font-size: 20px;
 }

@@ -5,16 +5,19 @@
     -fx-pref-height: 45;
     -fx-pref-width: 60;
     -fx-text-fill: white;
-    -fx-background-color: #525E6C;
+    -fx-background-color: #647E99;
     -fx-font-family: Calibri;
     -fx-font-size: 20px;
 }
 
 #comma, #plus, #minus, #equal, #divide, #multiply, #clear, #back, #brackets, #sign {
     -fx-text-fill: white;
-    -fx-background-color: #647E99;
+    -fx-pref-height: 45;
+    -fx-pref-width: 60;
+    -fx-background-color: #525E6C;
     -fx-font-family: Calibri;
     -fx-font-size: 20px;
+    -fx-font-weight: bold;
 }
 #textField{
     -fx-background-color: #3D4D5F;

@@ -1,0 +1,24 @@
+.root{
+    -fx-background-color: #3D4D5F;
+}
+#b0, #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+    -fx-text-fill: white;
+    -fx-background-color: #525E6C;
+    -fx-font-family: Calibri;
+    -fx-font-size: 20px;
+}
+
+#comma, #plus, #minus, #equal, #divide, #multiply, #clear, #back, #brackets, #sign {
+    -fx-text-fill: white;
+    -fx-background-color: #425466;
+    -fx-font-family: Calibri;
+    -fx-font-size: 20px;
+}
+#textField{
+    -fx-background-color: #3D4D5F;
+    -fx-font-family: Monospaced;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+
+}
